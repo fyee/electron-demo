@@ -2,9 +2,9 @@
   "name": "e3c",
   "version": "1.0.0",
   "description": "e3c desktop client",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron src/main.js"
   },
   "repository": {
     "type": "git",
