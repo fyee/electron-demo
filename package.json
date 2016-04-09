@@ -1,0 +1,11 @@
+{
+  "name": "e3c-client",
+  "version": "1.0.0",
+  "description": "a client for e3c",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "simon",
+  "license": "ISC"
+}
