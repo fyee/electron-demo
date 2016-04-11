@@ -7,6 +7,18 @@
 <body>
 <h1> Hello, world</h1>
 
-We are usting node <script> document.write(process.versions.node)</script>
+We are usting node
+<script> document.write(process.versions.node)</script>
 </body>
+<button id="hidden_client">hide window</button>
+<script src="./assets/js/index.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('#hidden_client').addEventListener('click', hideClient);
+    });
+    function hideClient() {
+        const remote = require('electron').remote;
+        remote.getCurrentWindow().hide();
+    }
+</script>
 </html>
